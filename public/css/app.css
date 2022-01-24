@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: aqua;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+table {
+  list-style-type: none;
+}
+
+table tr {
+  width: 50px;
+}
+
+table tr th {
+  width: 16.6666666667%;
+  border: 1px solid black;
+}
+
+table tbody tr td {
+  text-align: center;
+  border: 1px solid black;
+}
+

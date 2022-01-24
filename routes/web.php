@@ -13,8 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// Route::get('/orderVote', function () {
+//     return view('orderVote');
+// })->name('orderVote');
+// Route::get('/orderDate', function () {
+//     return view('orderDate');
+// })->name('orderDate');
 
 Route::get('/', 'MovieController@index' )->name('movies');
+Route::get('/vote', 'OrderVoteController@index' )->name('orderVote');
+Route::get('/date', 'OrderDateController@index' )->name('orderDate');

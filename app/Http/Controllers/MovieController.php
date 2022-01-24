@@ -12,6 +12,6 @@ class MovieController extends Controller
 
       // dump($movies);
 
-      return view('movies', compact($movies));
+      return view('movies', compact('movies'));
     }
 }

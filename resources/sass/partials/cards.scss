@@ -1,0 +1,18 @@
+table{
+  list-style-type: none;
+  tr{
+    width: 50px;
+    th{
+      width: calc(100% / 6);
+      border: 1px solid black;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        text-align: center;
+        border: 1px solid black;
+      }
+    }
+  }
+}
